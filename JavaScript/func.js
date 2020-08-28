@@ -63,3 +63,11 @@ function learnJS(lang, callback) {
     callback();
 }
 learnJS(langL, done);
+
+//================> Стрелочная функция!
+const calc = (a, b) => a + b;
+
+const calcLong = (a, b) => {
+    console.log('Vasia you are not right!');
+    return(a + b);
+}

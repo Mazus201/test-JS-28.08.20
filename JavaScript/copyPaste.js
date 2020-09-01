@@ -76,4 +76,4 @@ const copyArr = [...arr];
 copyArr[0] = "new";
 
 console.log(arr);
-console.log(copyArr);S
+console.log(copyArr);
